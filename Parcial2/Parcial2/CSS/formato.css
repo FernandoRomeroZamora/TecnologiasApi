@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  header {
+    background-color: #030028;
+    color: #ffffff;
+    padding: 20px 0;
+  }
+    
+  header h1 {
+    margin: 0;
+  }
+  
+  a {
+    color: #fff;
+    text-decoration: none;
+    margin:20px;
+    content: center;
+  }
+  
+
+  main {
+    padding: 20px 0;
+  }
+  
+  .hero {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  .topic {
+    padding: 50px 0;
+  }
+  
+  footer {
+    background-color: #030028;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+
+.topics {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: stretch;
+}
+
+.topic {
+  flex: 1 1 calc(33.33% - 20px);
+  margin: 10px;
+  text-align: center;
+}
+
+.topic img {
+  max-width: 100%;
+  height: auto;
+}
+
+.caption {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.carousel-item img {
+  width: 100%; 
+  max-height: 300px;
+  color:black;
+}
+
+.carousel-caption h5,
+.carousel-caption p {
+  color: black; 
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.card-body, .card {
+  text-align: center;
+  border-color: black;
+}
+
+.card{
+    border-width: 3px !important;
+  }
+
+
+  .definicion, .funciones, .tecnologias, .recursos{
+    background-color:  #030028;
+    color: white;
+    justify-content: center;
+  }
+h1{
+  font-size: 36px;
+}
+
+.definicion h2, .caracteristicas h2, .funciones h2 {
+  font-size: 24px;
+}
+
+.definicion p, .funciones p{
+  text-align: center; 
+}
+
+
+.caracteristicas {
+  display: flex;
+  justify-content: center;
+  text-align: left;
+}
+
+.funciones ul {
+justify-content: center !important;
+  text-align:center !important;
+} 
